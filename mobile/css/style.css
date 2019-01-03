@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.eot');
+    src: url('fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/montserrat-bold-webfont.eot');
+    src: url('fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('fonts/montserrat-bold-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;}
+:focus {	outline: 0;}
+body {line-height: 1.5;	position: relative;}
+ol, ul {list-style: none;}
+table {border-collapse: separate;	border-spacing: 0;}
+caption, th, td {text-align: left;font-weight: normal;}
+/*                     END RESET               */
+
+
+body, html{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: .9em;background: #fff;height: 100%;}
+#content{float: left;height: 100%;margin: 0;}
+
+/*------------------------------------------------------------------------*/
+.menu ul li a,.formulario form label,.formulario form input,.formulario form textarea,.formulario form input.borrar,.formulario form input.enviar,.detalles div span,.detalles div p,.text p,.img-franquicias p,.text-productos p,.vertical ul li label{font-family: montserratregular;}
+h2{font-family:  montserratbold;}
+
+.menu ul li{vertical-align: 5px;padding: 0 2%;display:inline;}
+.menu ul li.seis{padding: 0;width:16px;}
+.menu ul li a{color: #FFFFFF;text-decoration: none;vertical-align:middle;}
+.menu ul li span{border-radius: 50%;display: inline-block;height: 10px;width: 10px;}
+.uno > span {background:#ffffff;}
+.dos > span {background:#ffd400;}
+.tres > span {background:#e5418c;}
+.cuatro > span {background:#56aa35;}
+.cinco > span {background:#b0529f;}
+
+.fb-big{width:20%;padding-right:27%;display:inline-block;float:right;}
+.inst-big{width:20%;padding-left:27%;display:inline-block;float:left;}
+.fb-big2{bottom: 22%;display: inline-block;left: -8%;position: absolute;width: 16%;}
+.eshop-big{width:14%; margin:0 auto;}
+
+.formulario{z-index:0;margin-top:-5% !important;}
+
+.formulario form label{color:#8e0e79;display:block;}
+.formulario form input{width:95%;border-radius:10px;margin-bottom:5px;display:block;border:1px solid #fbddc5;padding:2px 5px;color:#444444;}
+.formulario form input.error, .formulario form textarea.error {background:#DDDDDD;border: 1px solid #FF0000;}
+.formulario form textarea{width:99%;border-radius:10px;height:50px;border:1px solid #fbddc5;color:#444444;}
+.formulario form input.borrar, .formulario form input.enviar{width:28%;background:#000000;color:#ff0000;padding:2px 3px;border:0;text-transform:uppercase;cursor:pointer;float:left;margin:5px 0 0 110px;}
+.formulario form input.enviar{color:#69ff00;margin-left:5px;}
+
+.detalles{z-index:1;}
+.detalles div span{line-height:24px;color:#ffa100;text-transform:uppercase;text-align:center;display:block;}
+.detalles div p{line-height:22px;color:#fff;text-align:center;}
+
+#success,#errors{display:none;}
+#success span,#errors span{background:rgba(255, 255, 255, 0.8);clear: both;float: left;font-size: 11px;margin-top: 10px;padding: 5px;}
+
+body{width:100%;}
+body.first{background:url(../images/bg1.jpg) no-repeat;background-size:cover;}
+body.two{background:url(../images/bg2.jpg) no-repeat;background-size:cover;}
+body.three{background:url(../images/bg3.jpg) no-repeat;background-size:cover;}
+body.four{background:url(../images/bg4.jpg) no-repeat;background-size:cover;}
+
+.logo{width:67%;margin:0 auto;display:block;}
+.logo img{margin:5% auto 0;}
+.menu{width:60%;margin:3% auto 0;display:block;border-radius:5em;background:#1a171b;}
+.menu ul {display: block;margin: 0 auto;overflow: hidden;width: 82%;text-align:center;}
+
+
+.text{width:50%;margin:10% auto;display:block;}
+.text p{line-height:28px;color:#000000;text-align:center;}
+
+h2{display:block;text-align:center;margin:2% 0;}
+
+.img-productos,.img-franquicias{width:78%;display:block;margin:0 auto;position:relative;}
+.img-franquicias{width:73%;height: 62%;position:relative;}
+.img-franquicias p{text-align:center;color:#fff;line-height:34px;padding-top:22%;position:absolute;top:0;}
+
+.img-franquicias p a{color:#ffff00;text-decoration:none;}
+.img-franquicias p a:hover{text-decoration:underline;}
+.img-franquicias p span{display:block;margin-top:5%;}
+.text-productos{width:82%;display:block;margin:5% auto 0;}
+.text-productos p{line-height:24px;color:#000000;text-align:center;}
+
+ul.personajes{width:95%;display:block;margin:2% auto;}
+ul.personajes li{display: inline-block;width: 23%;margin-left:1%;}
+ul.personajes li.no-margin{margin-left:0;}
+ul.personajes li img{width:100%;}
+ul.personajes li.fb img {vertical-align: 50%;width: 90%;}
+
+.detalles,.formulario{position:relative;width:83%;margin:4% auto 0;display:block;}
+.formulario form {width: 100%;}
+.detalles .googlemap {display: block;margin: 5px auto 10px;width: 50%;}
+
+.content-detalles {position: absolute;	top: 13%;}
+.content-formulario {position: absolute;top: 23%;width: 60%;}
+
+
+.accordion [type="radio"], .accordion [type="checkbox"] {display: none;}
+input[type="checkbox"], input[type="radio"] {padding: 0;}
+.vertical [type="radio"]:checked ~ label, .vertical [type="checkbox"]:checked ~ label {border-bottom: 0 none;}
+.accordion ul li label:hover, .accordion [type="radio"]:checked ~ label, .accordion [type="checkbox"]:checked ~ label {color: #FFFFFF;text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);}
+.vertical ul li label {padding: 5px 0;color:#fff;text-transform:none;}
+.accordion label {background:rgba(0, 0, 0, 0.8);border-radius: 0.5em;cursor: pointer;display: block;font-size: 16px;line-height: 16px;
+margin: 0 auto;text-align: center;text-transform: uppercase;transition: all 0.2s ease-out 0s;width: 80%;}
+.vertical ul li .menu {border-top: 0 none;height: 0;display:none;}
+.vertical [type="radio"]:checked ~ label ~ .menu, .vertical [type="checkbox"]:checked ~ label ~ .menu {display: inline-block;height: auto;position: absolute;z-index:99;}
+
+
+
+@media only screen and (min-width: 1000px) {
+		
+	body{min-height:1500px;}
+	body.three,body.four{height:2100px;}
+	
+	.menu ul li.seis{display: inline-block;height: 22px;padding: 0;vertical-align: 2px;width: 26px !important;}
+	.fb-big2 {bottom: 0%;}
+	.vertical ul li label{display:none;}
+	.vertical ul li .menu{height: auto;display:block;}
+	
+	 h2{font-size:28px;}
+	.formulario form input,.formulario form textarea{font-size:14px;}
+	.formulario form label,.detalles div p{font-size:24px;line-height:32px;}
+	
+	.img-productos{width:73%;}
+	.text-productos{width:98%;}
+	.text-productos p{font-size:18px;line-height:20px;}
+	.detalles div span,.text p{font-size:22px;line-height:29px;}
+	.text p{font-size:24px;}
+	.img-franquicias p{font-size:28px;}
+	.formulario form input{padding: 4px 5px;}
+	.formulario form textarea{height:80px;}
+	.formulario form input.borrar, .formulario form input.enviar {font-size: 22px;}
+	.menu ul li a {font-size: 26px;}
+}
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+		
+	body{min-height:1500px;}
+	body.three,body.four{height:2100px;}
+	body.two{background-size:cover;}
+	
+	.menu ul li.seis{display: inline-block;height: 22px;padding: 0;vertical-align: 2px;width: 26px !important;}
+	.fb-big2 {bottom: 0%;}
+	.vertical ul li label{display:none;}
+	.vertical ul li .menu{height: auto;display:block;}
+	
+	 h2{font-size:28px;}
+	.formulario form input,.formulario form textarea{font-size:14px;}
+	.formulario form label,.detalles div p{font-size:24px;line-height:32px;}
+	
+	.img-productos{width:73%;}
+	.text-productos{width:98%;}
+	.text-productos p{font-size:22px;line-height:26px;}
+	.detalles div span,.text p{font-size:22px;line-height:29px;}
+	.text p{font-size:24px;}
+	.img-franquicias p{font-size:28px;}
+	.formulario form input{padding: 4px 5px;}
+	.formulario form textarea{height:80px;}
+	.formulario form input.borrar, .formulario form input.enviar {font-size: 22px;}
+	.menu ul li a {font-size: 22px;}
+}
+@media only screen and (min-width: 639px) and (max-width: 700px) {
+	body{min-height:1050px;}
+	body.three,body.four{height:1458px;}
+
+	.menu ul li.seis{display: inline-block;height: 16px;padding: 0;vertical-align: 2px;width: 16px !important;}
+	.fb-big2 {bottom: 0%;}
+	.vertical ul li label{display:none;}
+	.vertical ul li .menu{height: auto;display:block;}
+	/*----Font-size------*/
+	h2{font-size:28px;}
+	.formulario form input,.formulario form textarea{font-size:12px;}
+	.menu ul li a,.formulario form input.borrar, .formulario form input.enviar{font-size:16px;}
+	.formulario form label,.detalles div p{font-size:16px;}
+	.text-productos p{font-size:17px;}
+	.detalles div span{font-size:18px;}
+	.text p{font-size:20px;}
+	.img-franquicias p{font-size:22px;}
+}	
+	
+	
+
+@media only screen and (min-width: 480px) and (max-width: 638px) {
+	body{min-height:900px;}
+	body.three,body.four{min-height:1100px;}	
+	
+	.fb-big2 {bottom: 0%;}
+	.menu{padding:5px 10px;width: 61%;border-radius:1em;}
+	.menu ul{width:100%}
+	.menu ul li {display: inline-block;}
+	.menu ul li a{font-size: 11px;}
+	/*----Font-size------*/
+	h2{font-size:22px;}
+	.formulario form input,.formulario form textarea{font-size:12px;}
+	.menu ul li a,.formulario form input.borrar, .formulario form input.enviar{font-size:11px;}
+	.formulario form input.borrar{margin: 5px 0 0 98px;}
+	.formulario form label,.detalles div p{font-size:12px;}
+	.text-productos p{line-height:20px;font-size:14px;}
+	.detalles div p{line-height: 18px;}
+	.content-detalles{top: 30%; width:100%;}
+	.detalles div span{font-size:18px;}
+	.text p{font-size:20px;}
+	.img-franquicias p{font-size:18px;line-height:28px;}
+}
+@media only screen and (min-width: 359px) and (max-width: 479px) {
+	/*body{min-height:700px;}
+	body.three,body.four{min-height:880px;}	*/
+	
+	.fb-big2 {bottom: 0%;}
+	.menu{padding:5px 10px;width: 70%;border-radius:1em;}
+	.menu ul{width:100%}
+	.menu ul li {display: inline-block;}
+	.menu ul li a{font-size: 10px;}
+	/*----Font-size------*/
+	h2{font-size:20px;}
+	.content-formulario{top: 15%; margin-left:50%; left:-30%;}
+	.formulario form input,.formulario form textarea{font-size:12px;}
+	.formulario form input.borrar, .formulario form input.enviar{font-size:9px;}
+	.formulario form input.borrar{margin: 5px 0 0 64px;}
+	.formulario form label,.detalles div p{font-size:12px;}
+	.text-productos p{line-height:16px;font-size:12px;}
+	.detalles div p{line-height: 19px;}
+	.content-detalles{top: 20%; width:100%;}
+	.detalles div span{font-size:14px;}
+	.detalles div span{line-height:19px;}
+	.text-productos{width:85%;margin:3% auto 0;}
+	.text p{line-height:20px;}
+	.img-franquicias p{font-size:14px;line-height:22px;}
+}
+@media only screen and (min-width: 319px) and (max-width: 358px) {
+	body{min-height:600px;}
+	body.three,body.four{min-height:884px;}	
+	.fb-big2{bottom:0%;}
+	.menu{padding:5px 10px;width: 87%;border-radius:1em;}
+	.menu ul{width:100%}
+	.menu ul li {display: inline-block;}
+	.menu ul li a{font-size: 10px;}
+	.text{width:90%;}
+	/*----Font-size------*/
+	h2{font-size:20px;}
+	.content-formulario{top: 15%;}
+	.formulario form input,.formulario form textarea{font-size:12px;}
+	.formulario form input.borrar, .formulario form input.enviar{font-size:9px;}
+	.formulario form input.borrar{margin: 5px 0 0 64px;}
+	.formulario form label,.detalles div p{font-size:9px;}
+	.text-productos p{line-height:14px;font-size:12px;}
+	.detalles div p{line-height: 13px;}
+	.content-detalles{top: 11%;}
+	.detalles div span{font-size:12px;}
+	.detalles div span{line-height:14px;}
+	.text-productos{width:88%;margin:3% auto 0;}
+	.text p{line-height:20px;}
+	.img-franquicias p{font-size:14px;line-height:22px;}
+}
+@media only screen and (min-width: 239px) and (max-width: 318px) {
+	body{min-height:550px;}
+	body.three,body.four{min-height:690px;}	
+	
+	.menu{padding:5px 10px;width: 89%;border-radius:1em;}
+	.menu ul{width:100%}
+	.menu ul li {display: inline-block;}
+	.menu ul li a{font-size: 10px;}
+	.text{width:74%;}
+	.fb-big2{bottom:0%;}
+	ul.personajes li{width:22%;}
+	.detalles, .formulario{width:90%;}
+	/*----Font-size------*/
+	h2{font-size:16px;}
+	.content-formulario{top: 12%;}
+	.formulario form input,.formulario form textarea{font-size:9px;}
+	.formulario form input.borrar, .formulario form input.enviar{font-size:8px;width:31%;}
+	.formulario form input.borrar{margin: 5px 0 0 44px;}
+	.formulario form label,.detalles div p{font-size:7px;}
+	.formulario form textarea{height:35px;}
+	.text-productos p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.detalles div p{line-height: 11px;}
+	.content-detalles{top: 12%;}
+	.detalles div span{font-size:12px;}
+	.detalles div span{line-height:10px;}
+	.text-productos{width:98%;margin:3% auto 0;}
+	.text p{line-height:20px;}
+	.img-franquicias p{font-size:11px;line-height:20px;}
+}
